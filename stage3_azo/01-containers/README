@@ -1,0 +1,2 @@
+This step install RedHat's 'podman', a drop-in Docker replacement.
+Podman integrates nicely with 'cockpit', ReHat's web administration interface.

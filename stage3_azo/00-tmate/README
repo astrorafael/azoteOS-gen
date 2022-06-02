@@ -1,0 +1,3 @@
+This phase installs tmate, a nads-on utility for terminal sharing
+useful in case wher we must offer hands-on remote support.
+Downloaded tmate binary is for 32bit ARM for the time being.

@@ -8,8 +8,8 @@ TMATE="tmate"
 if [ ! -f "files/$DOWNLOADED_FILE" ]; then
 	rm files/*.* -f
 	curl -s -L "$TMATE_URL" -o "files/$DOWNLOADED_FILE"
-	tar xvf "files/$DOWNLOADED_FILE" # produces OUT_DIR
 fi
 
+tar xvf "files/$DOWNLOADED_FILE" # produces OUT_DIR
 install -v -m 755 "$OUT_DIR/$TMATE" "${ROOTFS_DIR}/usr/bin/"
 rm -fr "$OUT_DIR"
